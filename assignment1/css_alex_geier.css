@@ -1,14 +1,25 @@
 body {
-    background: #DA372A;
+    background: #C92B1F;
 }
 
-header {
-    background-color: #ECDE56;
-    color: #0E0647;
-    font-size: 72px;
+h1 {
+    background-color: #E0BF46;
     font-family: Georgia, Palatino, serif;
-    height: 72px;
-    padding: 15px;
+    text-align: center;
+    font-size: 50px;
+    color: #270654;
+    padding: 10px;
+}
+
+h2 {
+    text-align: center;
+    background-color: #E0BF46;
+    color: #270654;
+    font-size: 30px;
+}
+
+.locations {
+    text-align: center;
 }
 
 section {
@@ -17,41 +28,35 @@ section {
     padding: 10px;
 }
 
-article {
-    border-width: 5px;
-    border-style: solid;
-    padding: 5px;
-    border-radius: 25px;
-    margin: 5px;
-}
-
 p {
     font-family: Arial, sans-serif;
 }
-h2 {
-    background-color: #ECDE56;
-    font-size: 52px;
-    font-family: Georgia, Palatino, serif;
-    color: #0E0647;
-    padding: 10px;
-}
+
 .description {
-    
+    border-width: 5px;
+    border-style: solid;
+    padding: 10px;
+    border-radius: 25px;
+    margin: 5px;
 }
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     font-family: arial, sans-serif;
-    background-color: #333;
+    background-color: #270654;
     overflow: hidden;
 }
 
-nav li {
+li {
+    display: inline;
+}
+
+ul {
     float: left;
 }
 
-nav li a {
+ul:a {
     display: block;
     color: white;
     text-align: center;
@@ -60,6 +65,27 @@ nav li a {
     text-decoration: none;
 }
 
-nav li a:hover {
-    background-color: #111;
+a:hover {
+    background-color: #FFE176;
+}
+
+#welcome {
+    text-align: center;
+    font-size: 18px;
+}
+
+table, th, td {
+   border: 5px solid black;
+   border-collapse: collapse;
+   backgound-color: #E0BF46;
+}
+
+th {
+    color: #E0BF46;
+    font-size: 18px;
+}
+
+td, th {
+    text-align: center;
+    padding: 5px;
 }
