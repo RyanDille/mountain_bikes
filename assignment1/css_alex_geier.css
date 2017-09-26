@@ -57,11 +57,12 @@ ul {
 }
 
 ul:a {
-    display: block;
+    display: inline
+    float: left;
     color: white;
     text-align: center;
     padding-left: 14px;
-    padding-right: 16px;
+    padding-right: 10px;
     text-decoration: none;
 }
 
