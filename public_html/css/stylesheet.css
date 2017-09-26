@@ -1,3 +1,4 @@
+
 body {
     background: #DEEFEF;
 }
@@ -31,6 +32,7 @@ p {
     font-family: arial, sans-serif;
     font-size: 16px;
     max-width: 800px;
+    margin-left: 5px;
 }
 
 nav ul {
@@ -120,8 +122,14 @@ table {
 
 table, th, td {
     border: 2px solid black;
+    padding: 5px;
+
 }
 
 #intro {
     font-size: 18px;
+}
+
+.below_menu_container {
+    padding-top: 50px;
 }
