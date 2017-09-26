@@ -1,12 +1,10 @@
-<!-- http://paletton.com/#uid=13i0f0k60nI2iVV4uvN4Yg51Q8V -->
-
 body {
     background: #DEEFEF;
 }
 
 header {
     background-color: #839898;
-    background-image: "none"
+    background-image: none;
     background-repeat: no-repeat;
     color: #282B2B;
     font-size: 60px;
@@ -32,6 +30,7 @@ article {
 p {
     font-family: arial, sans-serif;
     font-size: 16px;
+    max-width: 800px;
 }
 
 nav ul {
@@ -56,7 +55,7 @@ nav li {
 
 nav li a {
     display: block;
-    color: black;
+    color: white;
     text-align: center;
     padding: 10px 20px;
     text-decoration: none;
@@ -71,6 +70,11 @@ h1 {
     font-family: arial, sans-serif;
     color: #414D4D;
     text-align: center;
+    max-width: 800px;
+    border-style: none;
+    border-width: 5px;
+    border-color: #DEEFEF;
+    border-radius: 5px;
 }
 
 h2 {
@@ -78,6 +82,11 @@ h2 {
     font-family: arial, sans-serif;
     color: #414D4D;
     text-align: left;
+    border-style: groove;
+    border-width: 5px;
+    border-color: #DEEFEF;
+    border-radius: 10px;
+    max-width: 800px;
 }
 
 h3 {
@@ -85,4 +94,34 @@ h3 {
     font-family: arial, sans-serif;
     color: #414D4D;
     text-align: left;
+}
+
+.accessories {
+    display: inline;
+    color: #414D4D;
+    font-style: italic;
+}
+
+.sales {
+    display: inline;
+    color: #414D4D;
+    font-style: italic;
+}
+
+.motorcycles {
+    display: inline;
+    color: #414D4D;
+    font-style: italic;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 2px solid black;
+}
+
+#intro {
+    font-size: 18px;
 }
