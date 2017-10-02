@@ -7,7 +7,10 @@
 <head>
     <meta charset="utf-8">
     
-    <link rel="stylesheet" type="text/css" href="css_alex_geier.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="boostrap.css">
+    <link rel="stylesheet" href="https://bootswatch.com/united/bootstrap.min.css">
+
     
     <title>Login</title>
 
@@ -18,14 +21,35 @@
 
     <p style="font-size:30px;text-align:center;">We are sorry for the inconvenience.</p>
 
-    <ul>
-            <li><a href="hours_directions.html">Hours and Locations</a></li>
-            <li><a href="trails_page.html">Trails</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="sales.html">Sales</a></li>
-            <li><a href="accessories_biking.html">Accessories</a></li>
-            <li><a href="index.html.html">Home Page</a></li>
-    </ul>
+    <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="nav nav-pills">
+                  <li class="nav-item"><a class="nav-link" href="index.html.html">Home Page<span class="sr-only"></span></a></li>
+                  <li class="nav-item"><a class="nav-link" href="hours_directions.html">Hours and Locations</a></li>
+                  <li class="nav-item"><a class="nav-link" href="trails_page.html">Trails</a></li>
+                  <li class="nav-item"><a class="nav-link" href="sales.html">Sales</a></li>
+                  <li class="nav-item"><a class="nav-link" href="accessories_biking.html">Accessories</a></li>
+                  <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+              </ul>
+          </div>
+    </nav>
+    <form class="form-inline">
+    <label class="sr-only" for="inlineFormInput">Name</label>
+    <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" id="inlineFormInput" placeholder="Email Address">
+
+    <label class="sr-only" for="inlineFormInputGroup">Username</label>
+    <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+      <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Password">
+    </div>
+
+    <div class="form-check mb-2 mr-sm-2 mb-sm-0">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox"> Remember me
+      </label>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
 
     
 </body>

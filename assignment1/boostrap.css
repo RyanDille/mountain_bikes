@@ -1,0 +1,43 @@
+.jumbotron {
+    text-align: center;
+}
+
+.lead {
+    text-align: center;
+}
+
+li {
+    text-align: center;
+    padding: 5px;
+    display: inline;
+}
+
+p{
+    text-align: center;
+}
+
+ul {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+    border: solid;
+    border-width: 5px;
+    border-color: red;
+    margin: 350px;
+}
+
+.description {
+    text-align: center;
+}
+
+table {
+    display: block;
+    margin: auto;
+}
